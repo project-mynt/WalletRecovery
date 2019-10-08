@@ -24,4 +24,14 @@ To Run this tool do the following steps:
 }
 ```
 5. `node KeyRecovery.js`
+6. check to see for the address entry that match your address and copy the private key into your qt wallet using following command in debug console.
+`importprivkey [Your private key from Step 5]`
+7. may take a while for your wallet to rescan. when it done ur coins should show up in ur qt wallet.
 
+###Author: Tri Nguyen
+Any donation is welcome, if you found this useful and help u recover ur fund if you someone how no longer able to access ur mobile wallet or hardware wallet
+###Donation addresses:
+btc: 3Jym9QJLXQyjSSGKS1LCD9LCroPqCGo3Lq
+pgn: PMwnQ4AjUdahj4hiu9AQRah9wKTPWjZKbV
+rvn: RNdoKbfB2Xu5pEQA2EpzrD465qk73xVN7o
+ltc: LYaZWJ5iWNLa12j7jCqB2hneXnenVBVVoC
