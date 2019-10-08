@@ -1,0 +1,5 @@
+{
+	"seed" : "",
+	"coin" : "pigeon",
+	"derive_paths" : ["m/0'/0/0", "m/0'/0/1"]
+}
