@@ -1,5 +1,5 @@
 module.exports = {
-	pigeon : {
+	raven : {
 		messagePrefix: `\x19Pigeoncoin Signed Message:\n`,
 	    bip32: {
 	      public: 76067358,
@@ -10,7 +10,7 @@ module.exports = {
 	    wif: 128,
 	    coin : "PGN"
 	},
-	raven : {
+	pigeon : {
 		messagePrefix: `\x19Ravencoin Signed Message:\n`,
 	    bip32: {
 	      public: 142057770,
