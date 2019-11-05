@@ -1,17 +1,17 @@
 module.exports = {
 	raven : {
-		messagePrefix: `\x19Pigeoncoin Signed Message:\n`,
+		messagePrefix: `\x19Ravencoin Signed Message:\n`,
 	    bip32: {
 	      public: 76067358,
 	      private: 76066276
 	    },
-	    pubKeyHash: 50,
+	    pubKeyHash: 60,
 	    scriptHash: 122,
 	    wif: 128,
-	    coin : "PGN"
+	    coin : "RVN"
 	},
 	pigeon : {
-		messagePrefix: `\x19Ravencoin Signed Message:\n`,
+		messagePrefix: `\x19Pigeoncoin Signed Message:\n`,
 	    bip32: {
 	      public: 142057770,
 	      private: 142057770
@@ -19,6 +19,6 @@ module.exports = {
 	    pubKeyHash: 55,
 	    scriptHash: 122,
 	    wif: 128,
-	    coin : "RVN"
+	    coin : "PGN"
 	}
 }
