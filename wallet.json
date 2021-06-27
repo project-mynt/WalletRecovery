@@ -1,5 +1,5 @@
 {
-	"seed" : "",
-	"coin" : "pigeon",
+	"seed" : "for wallet recovery 12 word seed phrase goes here just like this",
+	"coin" : "mynt",
 	"derive_paths" : ["m/0'/0/0", "m/0'/0/1"]
 }
