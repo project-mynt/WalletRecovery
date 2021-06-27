@@ -11,15 +11,15 @@ This tool is use to recover wallet and addresses and their associated private ke
 To Run this tool do the following steps:
 
 0. open command prompt
-1. check out the project: `git clone https://github.com/Pigeoncoin/WalletRecovery`
+1. check out the project: `git clone https://github.com/project-mynt/WalletRecovery`
 2. `cd WalletRecovery`
 3. `npm install`
 4. edit wallet.json and put in ur seed words for example: 
 
 ```
 {
-	"seed" : "abc 1233 5436 abdga 1djahda 381737", // not a real seed phase
-	"coin" : "pigeon",
+	"seed" : "for wallet recovery 12 word seed phrase goes here just like this", // not a real seed phase
+	"coin" : "mynt",
 	"derive_paths" : ["m/0'/0/0", "m/0'/0/1"]
 }
 ```
@@ -28,7 +28,7 @@ To Run this tool do the following steps:
 `importprivkey [Your private key from Step 5]`
 7. may take a while for your wallet to rescan. when it done ur coins should show up in ur qt wallet.
 
-###Author: Tri Nguyen
+###Author: Originally created by Tri Nguyen, Modified for Mynt by DreadedZombie
 
 Any donation is welcome, if you found this useful and help u recover ur fund if you someone how no longer able to access ur mobile wallet or hardware wallet
 
